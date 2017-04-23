@@ -141,5 +141,8 @@ for i in range(row, 1, -1):
 		print "* ",
 	print "\n"
 
+def func1(x):
+	return x+10
 
+print func1(4)
 
