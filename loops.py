@@ -119,7 +119,7 @@ else:
 # 	print "The number %d is ODD" %(int(choice))
 
 
-row = input("Enter row number: ")
+row = input("Enter row number1: ")
 for i in range(1,row):
 	for j in range(1,i):
 		print "* ",
@@ -127,7 +127,7 @@ for i in range(1,row):
 	print "\n"
 
 
-row = input("Enter row number: ")
+row = input("Enter row number2: ")
 for i in range(1,row):
 	for j in range(1,i):
 		print "%s " %(j),
@@ -135,7 +135,7 @@ for i in range(1,row):
 	print "\n"
 
 
-row = input("Enter row number: ")
+row = input("Enter row number3: ")
 for i in range(row, 1, -1):
 	for j in range(1, i):
 		print "* ",
